@@ -1,0 +1,47 @@
+.backgroundVideo {
+  width: 100%;
+}
+.backgroundVideoContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  filter: blur(4px);
+}
+.backgroundVideoContainer:after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  content: "";
+  background: rgba(0,0,0,0.5);
+  z-index: 1;
+}
+.mainContainer {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #000;
+}
+.content {
+  padding: 0 50px;
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+}
+.title {
+  margin-bottom: 20px;
+  max-width: 260px;
+  margin: auto;
+}
+.subTitle {
+  font-size: 30px;
+}
