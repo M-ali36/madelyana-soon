@@ -9,7 +9,6 @@
   height: 100%;
   object-fit: cover;
   overflow: hidden;
-  filter: blur(4px);
 }
 .backgroundVideoContainer:after {
   position: absolute;
@@ -18,7 +17,7 @@
   left: 0;
   top: 0;
   content: "";
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.8);
   z-index: 1;
 }
 .mainContainer {
